@@ -1,0 +1,106 @@
+:root{
+    --blue-color: rgb(59, 112, 217);
+    --bg-color: rgb(225, 225, 188);
+    --main-color: rgb(237, 237, 223);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: var(--main-color);
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto{
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 50px;
+    margin: 10px;
+}
+
+.nome{
+    font-size: 50px;
+}
+
+.titulo-obj,
+.titulo-formacao,
+.titulo-tecnico,
+.titulo-xp{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.info1{
+    font-weight: 700;
+    color:var(--blue-color);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.obj{
+    padding:25px;
+    margin: 0 10px 10px 10px;
+    border: solid 1px;
+    font-size: 20px;
+}
+
+.info2{
+    margin-left: 20px;
+}
+
+.formacao,
+.tecnico{
+    margin: 0 10px 10px 10px;
+    font-size: 20px;
+}
+
+.xp{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+span{
+    color: var(--blue-color);
+}
+
+.linha{
+    border: solid 1px;
+    margin-right: 10px;
+    margin-right: 650px;
+    margin-bottom: 10px;
+
+}
+
+hr{
+    margin-right: 650px;
+}
+
+.img-empresa{
+    
+    width: 80px;
+    height: 25px;
+}
