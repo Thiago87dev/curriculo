@@ -52,6 +52,7 @@ main{
 .titulo-xp{
     font-size: 35px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 .info1{
@@ -74,13 +75,13 @@ main{
 
 .formacao,
 .tecnico{
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 10px 50px;
     font-size: 20px;
 }
 
 .xp{
     font-size: 20px;
-    margin: 10px 0;
+    margin: 10px 0 0 50px;
 }
 
 span{
@@ -103,4 +104,5 @@ hr{
     
     width: 80px;
     height: 25px;
+    margin-left: 50px;
 }
